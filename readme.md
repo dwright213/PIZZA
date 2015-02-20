@@ -3,11 +3,11 @@
 
 ##Introduction
 ---------------------
-PIZZA
+PIZZA is an app that allows the user to choose a type and size of pizza and determines the optimal amount of slices for such a pizza.
 
 ##Requirements
 ---------------------
-To run this you just need a computer that can view local html documents on a web browser.
+To run this you just need a computer that can view local html documents in a web browser.
 
 ##Instructions
 ---------------------

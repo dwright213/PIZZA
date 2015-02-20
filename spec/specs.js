@@ -6,6 +6,7 @@ describe("Pizza", function() {
       expect(testPizza.sliceSize()).to.equal(3);
     });
   });
+
   describe("sliceNumber()", function() {
     it("Returns the approximate number of slices the user can expect their pizza to be cut into", function() {
       var testPizza = Object.create(Pizza);
@@ -14,6 +15,7 @@ describe("Pizza", function() {
       expect(testPizza.sliceNumber()).to.equal(13);
     });
   });
+  
   describe("getDetails()", function() {
     it("Confirms to the user their pizza's size, toppings, and number of slices", function() {
       var testPizza = Object.create(Pizza);

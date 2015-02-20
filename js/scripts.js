@@ -23,8 +23,6 @@ var Pizza = {
   }
 };
 
-
-
 $(document).ready(function() {
   $("form#pizza").submit(function(event) {
     event.preventDefault();
@@ -36,7 +34,7 @@ $(document).ready(function() {
     newPizza.size = inputtedSize;
     newPizza.type = inputtedPizzaType;
 
-    $("div#results").append(newPizza.getDetails());
+    $("div#results").text(newPizza.getDetails());
 
   });
 

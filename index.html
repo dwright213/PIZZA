@@ -15,23 +15,20 @@
           (patent pending)
         </small>
       </h1>
-
-      <form id="pizza">
-
-
-        <input type="radio" name="pizza-type" value="cheese">cheese
-        <br>
-        <input type="radio" name="pizza-type" value="pepperoni">pepperoni
-        <br>
-
-        <input type="number" id="size">
-        <br>
-        <button type="submit">Submit</button>
-      </form>
-
+        <form id="pizza">
+          <div class="form-group">
+            <input type="radio" name="pizza-type" value="cheese" checked="checked" />cheese
+            
+            <input type="radio" name="pizza-type" value="pepperoni" />pepperoni
+            <br>
+            <br>
+            <input class="form-control" type="number" id="size">
+            <br>
+            <button class="btn btn-default" type="submit">Submit</button>
+          </div>
+        </form>
       <div id="results">
       </div>
-
 
     </div>
   </body>
