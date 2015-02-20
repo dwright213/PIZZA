@@ -1,0 +1,16 @@
+body {
+  font-family: 'Anton', sans-serif;
+  background: url("http://www.bonappetit.com/wp-content/uploads/2012/07/ultra-marathon-640.gif");
+  color: #FF0000;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.col-xs-6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: hsla(94, 100%, 50%, 0.88);
+  border-style: outset;
+  border-color: hsla(94, 100%, 50%, 0.88);
+  border-width: 10px;
+
+}

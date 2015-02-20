@@ -34,7 +34,7 @@ $(document).ready(function() {
     newPizza.size = inputtedSize;
     newPizza.type = inputtedPizzaType;
 
-    $("div#results").text(newPizza.getDetails());
+    $("#results").text(newPizza.getDetails());
 
   });
 
